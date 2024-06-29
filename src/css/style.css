@@ -1,0 +1,384 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+
+html
+{
+    font-family: 'Roboto',sans-serif;
+}
+.promo
+{
+    height: 800px;
+    background: url('../img/main_bg.png') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+.container
+{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.one_main
+{
+    text-align: left;
+}
+.logo .logo_img
+{
+    display: block;
+  margin: 0px auto;
+    
+}
+.logo .logo_text
+{
+    color: #FFF;
+    text-align: center;
+    font-family: system-ui, Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+.title
+{
+    color: #F9BF3B;
+    text-align: justify;
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title_big
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+h1
+{
+margin-top: 53px;
+}
+h2.title
+{
+    margin-top: 30px;
+}
+.promo_text
+{
+    color:#FFF;
+    font-family: "Roboto Light";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 23px;
+}
+.promo .promo_text span
+{
+    color: #F9BF3B;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.promo_btn
+{
+    margin: 0 auto;
+    width: 313px;
+    height: 72px;
+    margin-top: 70px;
+    padding: 21px 12px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+    cursor: pointer;
+    text-align: center;
+    
+}
+.promo_btn span
+{
+    color: #FFF;
+    text-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.22);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+} 
+.promo_btn :hover
+{
+    color:blueviolet;
+}
+
+.more
+{
+    text-align: center;
+    margin-top: 61px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.down
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.containerone
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.waiting
+{
+  min-height: 604px;
+  background-color: #efefef;  
+  padding: 85px 0 75px 0;
+}
+.waiting .waiting_header, .finish_header
+{
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight:400 ;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.waiting_divider
+{
+ width: 217px;
+ height: 4px;
+ background-color: #f9bf3b;
+ margin-top: 28px;
+ margin: 28px auto;   
+}
+
+.waiting_subheader
+{
+ color: #4a4a4a   ;
+ font-family: Roboto;
+ font-size: 23px;
+ font-weight: 400;
+ line-height: 10px;
+ text-align: center;
+
+}
+
+.waiting_wrapper
+{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.waiting_item
+{
+   
+   
+    width: 339px;
+    text-align: center;   
+}
+.waiting_item .waiting_img
+{
+ width:100%;
+}
+.waiting_item .waiting_descr
+{
+    margin-top: 33px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.optimization
+{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization .container
+{
+    text-align: left;
+}
+.optimization_header
+{
+    
+    margin-left: 391px;   
+    color: #299CBD;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.optimisation_text 
+{
+    margin-top: 25px;
+    margin-left: 391px;  
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    
+}
+.optimisation_text span
+{
+    font-family: "Roboto-Bold";
+    font-weight: 700;   
+}
+.optimisation_img
+{
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+
+}
+.finish_wrapper
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+.finish_wrapper
+{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-around;
+}
+.finish
+{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url(../img/second_bg.png) center center/cover no-repeat;
+}
+.finish_header
+{
+    color:#FFF;
+}
+.finish_item
+{
+    width: 190px;
+    text-align: center;
+}
+.finish_round
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background-color:#B4E2FF;
+    border-radius: 100px
+}
+.finish_descr
+{
+    margin-top: 25px;
+    text-align: center;
+    color:#efefef;
+    font-family:Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+
+}
+.gift
+{
+    background:#EFEFEF;
+    padding: 82px 0 86px 0;
+    min-height: 631px;
+}
+
+
+.gift_descr
+{
+    margin-top: 43px;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+.gift_container
+{
+    margin-top: -20px;
+}
+.webinar
+{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 78px 0 0 0;
+    min-height: 480px;
+}
+.webinar_header
+{
+    margin-top: 31px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.data
+{
+    margin-left: -391px;
+    margin-top: 31px;
+}
+.webinar_descr
+{
+    margin-top: 27px;
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.foot
+{
+    padding: 56px 0 69px 0;
+    margin: 0 auto;
+    min-height: 168px;
+    background-color:#252525
+}
+.help,.security,.call,.foot_divider
+{
+   
+    color: #888;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    text-decoration-line: underline;
+    margin: 0 5px;
+}
+.link
+{
+    display: flex;
+    justify-content:center;
+    
+}
